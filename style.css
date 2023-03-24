@@ -259,6 +259,7 @@ hr {
     font-size: var(--fs-200);
     font-weight: var(--fw-400);
     font-style: normal;
+    margin-right: 8px;
 }
 
 .author {
@@ -269,6 +270,9 @@ hr {
 
 .author img {
     width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 16px;
 }
 
 .author>p {
@@ -280,4 +284,8 @@ hr {
 
 .text-beginning-style {
     color: var(--clr-primary-soft-blue);
+}
+
+.text-digital-asset {
+    margin-right: 6px;
 }
